@@ -1,3 +1,4 @@
+#define $FIXED_NAME MS_China1_Edge
 #define $MIC MidSide
 
 #define $ART D3
@@ -15,6 +16,7 @@
 #define $CODE_07 LZZ4
 #define $CODE_08 YZT2
 #define $CODE_09 F9XP
+//TODO: Y9XF = OH_Crash1_Bell ???
 #define $CODE_10 Y9XF
 #define $CODE_11 DPGW
 #define $CODE_12 XRSN

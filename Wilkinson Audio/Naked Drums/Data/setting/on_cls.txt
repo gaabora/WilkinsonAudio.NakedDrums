@@ -3,11 +3,11 @@ sample=*silence
 seq_length=1
 off_by=-1
 end=-1
-group=$OFF_HH_OPN
+group=$OFF_BY_HHAT_OPN
 
 <region>
 sample=*silence
 seq_length=1
 off_by=-1
 end=-1
-group=$OFF_HH_HLF
+group=$OFF_BY_HHAT_HLF

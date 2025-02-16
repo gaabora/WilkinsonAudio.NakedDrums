@@ -1,3 +1,4 @@
+#define $FIXED_NAME OH_Splash2_Bow
 #define $MIC OH
 
 #define $ART D3

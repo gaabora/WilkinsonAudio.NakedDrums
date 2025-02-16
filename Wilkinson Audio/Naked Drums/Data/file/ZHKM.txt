@@ -1,3 +1,4 @@
+#define $FIXED_NAME MS_Crash1_Choke
 #define $MIC MidSide
 
 #define $ART F3

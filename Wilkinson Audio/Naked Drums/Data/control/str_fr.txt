@@ -1,2 +1,2 @@
-label_cc$VOL_FR=$LAB_VOL_FR
-set_hdcc$VOL_FR=$SET_DEF
+label_cc$CC_NUM_VOLUME_FR=$LABEL_FOR_VOL_FR
+set_hdcc$CC_NUM_VOLUME_FR=$SET_DEF

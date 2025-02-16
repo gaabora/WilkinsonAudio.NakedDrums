@@ -1,12 +1,12 @@
-master_label=$LAB_TOM4
+master_label=$LABEL_FOR_TOM4
 master_volume=$TRIM_MS_TOM4
 note_polyphony=$POLY_SHELL
-off_time=$OTM_MS_TOM4
+off_time=$OFF_TIME_MS_TOM4
 group=$GRP_MS_TOM4
-tune=$TUN_TOM4
+tune=$TUNING_CENTS_TOM4
 
 <group>
 key=$KEY_TOM4
-group_label=$center
+group_label=$LABEL_CENTER
 #include "../Data/file/9DK7.txt"
 #include "../Data/region/v3.txt"

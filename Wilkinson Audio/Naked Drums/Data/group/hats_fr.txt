@@ -1,21 +1,21 @@
 #include "../Data/setting/sw_set.txt"
-master_label=$LAB_HH
-master_volume=$TRIM_FR_HH
-note_polyphony=$POLY_HH
-off_time=$OTM_FR_HH
+master_label=$LABEL_FOR_HHAT
+master_volume=$TRIM_FR_HHAT
+note_polyphony=$POLY_HHAT
+off_time=$OFF_TIME_FR_HHAT
 
 //articulation trim
-#define $TRIM_HH_PDL 0
-#define $TRIM_HH_TGH -4
-#define $TRIM_HH_CLS 1
-#define $TRIM_HH_HLF 7
-#define $TRIM_HH_OPN 8
+#define $TRIM_HHAT_PDL 0
+#define $TRIM_HHAT_TGH -4
+#define $TRIM_HHAT_CLS 1
+#define $TRIM_HHAT_HLF 7
+#define $TRIM_HHAT_OPN 8
 
 <group>
-key=$KEY_HH_PDL
-group=$GRP_FR_HH_PDL
-group_volume=$TRIM_HH_PDL
-group_label=$pedal
+key=$KEY_HHAT_PDL
+group=$GRP_FR_HHAT_PDL
+group_volume=$TRIM_HHAT_PDL
+group_label=$LABEL_PEDAL
 #include "../Data/setting/off_all.txt"
 #include "../Data/file/7Y84.txt"
 #include "../Data/region/v1.txt"
@@ -23,44 +23,44 @@ group_label=$pedal
 //--------------------------------------------
 
 <group>
-key=$KEY_HH_TGH
-group=$GRP_FR_HH_TGH
-off_by=$OFF_HH_TGH
-group_volume=$TRIM_HH_TGH
-group_label=$tight
+key=$KEY_HHAT_TGH
+group=$GRP_FR_HHAT_TGH
+off_by=$OFF_BY_HHAT_TGH
+group_volume=$TRIM_HHAT_TGH
+group_label=$LABEL_TIGHT
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/off_all.txt"
 #include "../Data/file/VWGH.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_HH_CLS
-group=$GRP_FR_HH_CLS
-off_by=$OFF_HH_CLS
-group_volume=$TRIM_HH_CLS
-group_label=$closed
+key=$KEY_HHAT_CLS
+group=$GRP_FR_HHAT_CLS
+off_by=$OFF_BY_HHAT_CLS
+group_volume=$TRIM_HHAT_CLS
+group_label=$LABEL_CLOSED
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/off_all.txt"
 #include "../Data/file/O6HG.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_HH_HLF
-group=$GRP_FR_HH_HLF
-off_by=$OFF_HH_HLF
-group_volume=$TRIM_HH_HLF
-group_label=$half
+key=$KEY_HHAT_HLF
+group=$GRP_FR_HHAT_HLF
+off_by=$OFF_BY_HHAT_HLF
+group_volume=$TRIM_HHAT_HLF
+group_label=$LABEL_HALF
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/on_hlf.txt"
 #include "../Data/file/HVI7.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_HH_OPN
-group=$GRP_FR_HH_OPN
-off_by=$OFF_HH_OPN
-group_volume=$TRIM_HH_OPN
-group_label=$open
+key=$KEY_HHAT_OPN
+group=$GRP_FR_HHAT_OPN
+off_by=$OFF_BY_HHAT_OPN
+group_volume=$TRIM_HHAT_OPN
+group_label=$LABEL_OPEN
 #include "../Data/setting/sw_non.txt"
 #include "../Data/file/QBTA.txt"
 #include "../Data/region/v3.txt"
@@ -68,38 +68,38 @@ group_label=$open
 //--------------------------------------------
 
 <group>
-key=$KEY_HH_BOW
-locc$PED=$LOPED1
-hicc$PED=$HIPED1
-group=$GRP_FR_HH_OPN
-off_by=$OFF_HH_OPN
-group_volume=$TRIM_HH_OPN
-group_label=$open
+key=$KEY_HHAT_BOW
+locc$CC_NUM_HHAT_PEDAL=$LOPED1
+hicc$CC_NUM_HHAT_PEDAL=$HIPED1
+group=$GRP_FR_HHAT_OPN
+off_by=$OFF_BY_HHAT_OPN
+group_volume=$TRIM_HHAT_OPN
+group_label=$LABEL_OPEN
 #include "../Data/setting/sw_var.txt"
 #include "../Data/file/QBTA.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_HH_BOW
-locc$PED=$LOPED2
-hicc$PED=$HIPED2
-group=$GRP_FR_HH_HLF
-off_by=$OFF_HH_HLF
-group_volume=$TRIM_HH_HLF
-group_label=$half
+key=$KEY_HHAT_BOW
+locc$CC_NUM_HHAT_PEDAL=$LOPED2
+hicc$CC_NUM_HHAT_PEDAL=$HIPED2
+group=$GRP_FR_HHAT_HLF
+off_by=$OFF_BY_HHAT_HLF
+group_volume=$TRIM_HHAT_HLF
+group_label=$LABEL_HALF
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/on_hlf.txt"
 #include "../Data/file/HVI7.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_HH_BOW
-locc$PED=$LOPED3
-hicc$PED=$HIPED3
-group=$GRP_FR_HH_TGH
-off_by=$OFF_HH_TGH
-group_volume=$TRIM_HH_TGH
-group_label=$tight
+key=$KEY_HHAT_BOW
+locc$CC_NUM_HHAT_PEDAL=$LOPED3
+hicc$CC_NUM_HHAT_PEDAL=$HIPED3
+group=$GRP_FR_HHAT_TGH
+off_by=$OFF_BY_HHAT_TGH
+group_volume=$TRIM_HHAT_TGH
+group_label=$LABEL_TIGHT
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/off_all.txt"
 #include "../Data/file/VWGH.txt"
@@ -108,38 +108,38 @@ group_label=$tight
 //--------------------------------------------
 
 <group>
-key=$KEY_HH_EDG
-locc$PED=$LOPED1
-hicc$PED=$HIPED1
-group=$GRP_FR_HH_OPN
-off_by=$OFF_HH_OPN
-group_volume=$TRIM_HH_OPN
-group_label=$open
+key=$KEY_HHAT_EDG
+locc$CC_NUM_HHAT_PEDAL=$LOPED1
+hicc$CC_NUM_HHAT_PEDAL=$HIPED1
+group=$GRP_FR_HHAT_OPN
+off_by=$OFF_BY_HHAT_OPN
+group_volume=$TRIM_HHAT_OPN
+group_label=$LABEL_OPEN
 #include "../Data/setting/sw_var.txt"
 #include "../Data/file/QBTA.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_HH_EDG
-locc$PED=$LOPED2
-hicc$PED=$HIPED2
-group=$GRP_FR_HH_HLF
-off_by=$OFF_HH_HLF
-group_volume=$TRIM_HH_HLF
-group_label=$half
+key=$KEY_HHAT_EDG
+locc$CC_NUM_HHAT_PEDAL=$LOPED2
+hicc$CC_NUM_HHAT_PEDAL=$HIPED2
+group=$GRP_FR_HHAT_HLF
+off_by=$OFF_BY_HHAT_HLF
+group_volume=$TRIM_HHAT_HLF
+group_label=$LABEL_HALF
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/on_hlf.txt"
 #include "../Data/file/HVI7.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_HH_EDG
-locc$PED=$LOPED3
-hicc$PED=$HIPED3
-group=$GRP_FR_HH_CLS
-off_by=$OFF_HH_CLS
-group_volume=$TRIM_HH_CLS
-group_label=$closed
+key=$KEY_HHAT_EDG
+locc$CC_NUM_HHAT_PEDAL=$LOPED3
+hicc$CC_NUM_HHAT_PEDAL=$HIPED3
+group=$GRP_FR_HHAT_CLS
+off_by=$OFF_BY_HHAT_CLS
+group_volume=$TRIM_HHAT_CLS
+group_label=$LABEL_CLOSED
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/off_all.txt"
 #include "../Data/file/O6HG.txt"

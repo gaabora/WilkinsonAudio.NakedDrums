@@ -1,3 +1,4 @@
+#define $FIXED_NAME CH_Crash2_Bell
 #define $MIC TopOne
 
 #define $ART E3

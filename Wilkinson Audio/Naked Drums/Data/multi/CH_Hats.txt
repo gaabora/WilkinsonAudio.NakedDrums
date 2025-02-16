@@ -1,4 +1,4 @@
 <master>
-locc$CH_HH=1
-amplitude_oncc$CH_HH=$RANGE_VOL
+locc$CH_HHAT=1
+amplitude_oncc$CH_HHAT=$RANGE_VOL
 #include "../Data/group/hats_ch.txt"

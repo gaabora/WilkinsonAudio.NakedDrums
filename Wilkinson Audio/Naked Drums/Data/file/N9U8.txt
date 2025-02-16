@@ -1,3 +1,4 @@
+#define $FIXED_NAME OH_China2_Edge
 #define $MIC OH
 
 #define $ART D3

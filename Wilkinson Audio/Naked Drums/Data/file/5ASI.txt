@@ -1,3 +1,4 @@
+#define $FIXED_NAME CR_Crash1_Edge
 #define $MIC CloseRoom
 
 #define $ART D3

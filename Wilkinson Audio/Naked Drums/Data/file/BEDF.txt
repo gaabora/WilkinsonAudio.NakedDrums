@@ -1,3 +1,4 @@
+#define $FIXED_NAME MS_HiHatHlf
 #define $MIC MidSide
 
 #define $ART G2

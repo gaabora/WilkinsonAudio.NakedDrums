@@ -1,4 +1,4 @@
 <master>
-locc$CR_RD=1
-amplitude_oncc$CR_RD=$RANGE_VOL
+locc$CR_RIDE=1
+amplitude_oncc$CR_RIDE=$RANGE_VOL
 #include "../Data/group/ride_cr.txt"

@@ -1,5 +1,5 @@
 <group>
-group=$OFF_CHN2
+group=$OFF_BY_CHN2
 #include "../Data/setting/choke.txt"
 
 <region>

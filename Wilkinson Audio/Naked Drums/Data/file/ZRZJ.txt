@@ -1,3 +1,4 @@
+#define $FIXED_NAME CR_Tom1_head
 #define $MIC -CloseRoom
 
 #define $ART D3

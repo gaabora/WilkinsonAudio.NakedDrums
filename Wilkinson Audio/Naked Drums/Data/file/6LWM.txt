@@ -1,3 +1,4 @@
+#define $FIXED_NAME OH_HiHatHlf
 #define $MIC OH
 
 #define $ART G2

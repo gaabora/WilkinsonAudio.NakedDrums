@@ -1,3 +1,4 @@
+#define $FIXED_NAME MS_SnareA_SideStick
 #define $MIC MS_Black
 
 #define $ART D2

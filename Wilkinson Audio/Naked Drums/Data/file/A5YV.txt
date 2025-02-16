@@ -1,3 +1,4 @@
+#define $FIXED_NAME DI_Ride_Bell
 #define $MIC RideMic
 
 #define $ART E3

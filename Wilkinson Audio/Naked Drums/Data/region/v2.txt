@@ -1,49 +1,59 @@
 #define $POS 1
-#define $RR one
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_01.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_02.$ext
+#define $RR_OLD one
+#define $RR_NEW -RR01
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_01.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_02.$ext
 
 #define $POS 2
-#define $RR two
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_03.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_04.$ext
+#define $RR_OLD two
+#define $RR_NEW -RR02
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_03.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_04.$ext
 
 #define $POS 3
-#define $RR three
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_05.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_06.$ext
+#define $RR_OLD three
+#define $RR_NEW -RR03
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_05.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_06.$ext
 
 #define $POS 4
-#define $RR four
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_07.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_08.$ext
+#define $RR_OLD four
+#define $RR_NEW -RR04
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_07.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_08.$ext
 
 #define $POS 5
-#define $RR five
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_09.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_10.$ext
+#define $RR_OLD five
+#define $RR_NEW -RR05
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_09.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_10.$ext
 
 #define $POS 6
-#define $RR six
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_11.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_12.$ext
+#define $RR_OLD six
+#define $RR_NEW -RR06
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_11.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_12.$ext
 
 #define $POS 7
-#define $RR seven
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_13.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_14.$ext
+#define $RR_OLD seven
+#define $RR_NEW -RR07
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_13.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_14.$ext
 
 #define $POS 8
-#define $RR eight
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_15.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_16.$ext
+#define $RR_OLD eight
+#define $RR_NEW -RR08
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_15.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_16.$ext
 
 #define $POS 9
-#define $RR nine
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_17.$ext offset=$offset
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_18.$ext
+#define $RR_OLD nine
+#define $RR_NEW -RR09
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_17.$ext offset=$offset // TODO: fix shit in audio and remove $offset from everywhere
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_18.$ext
 
 #define $POS 10
-#define $RR ten
-<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR sample=$MIC_$ART_$VEL1_$RR-$CODE_19.$ext
-<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR sample=$MIC_$ART_$VEL2_$RR-$CODE_20.$ext
+#define $RR_OLD ten
+#define $RR_NEW -RR10
+<region> lovel=$V21L hivel=$V21H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL12$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_19.$ext
+<region> lovel=$V22L hivel=$V22H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL22$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_20.$ext

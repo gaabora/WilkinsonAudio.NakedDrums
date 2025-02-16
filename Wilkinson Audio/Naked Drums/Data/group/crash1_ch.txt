@@ -1,4 +1,4 @@
-master_label=$LAB_CRS1
+master_label=$LABEL_FOR_CRS1
 master_volume=$TRIM_CH_CRS1
 
 //articulation trim
@@ -10,22 +10,22 @@ master_volume=$TRIM_CH_CRS1
 key=$KEY_CRS1_EDG
 group=$GRP_CH_CRS1_EDG
 off_by=$GRP_CH_CRS1_CHK
-off_time=$OTM_CH_CRS1_EDG
+off_time=$OFF_TIME_CH_CRS1_EDG
 note_polyphony=$POLY_EDG
 group_volume=$TRIM_CRS1_EDG
-group_label=$edge
+group_label=$LABEL_EDGE
 #include "../Data/file/JWI3.txt"
 #include "../Data/region/v3.txt"
 
 <group>
 key=$KEY_CRS1_BEL
 group=$GRP_CH_CRS1_BEL
-off_by=$OFF_CRS1
-off_time=$OTM_CH_CRS1_BEL
-off_shape=$OSH_CYMBAL
+off_by=$OFF_BY_CRS1
+off_time=$OFF_TIME_CH_CRS1_BEL
+off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
 group_volume=$TRIM_CRS1_BEL
-group_label=$bell
+group_label=$LABEL_BELL
 #include "../Data/file/1RIN.txt"
 #include "../Data/region/v1.txt"
 
@@ -35,7 +35,7 @@ group_label=$bell
 key=$KEY_CRS1_EDG
 group=$GRP_CH_CRS1_CHK
 group_volume=$TRIM_CRS1_CHK
-group_label=$choke
+group_label=$LABEL_CHOKE
 #include "../Data/setting/rt_polyaft.txt"
 #include "../Data/file/MF9F.txt"
 #include "../Data/region/v1.txt"
@@ -45,7 +45,7 @@ sw_down=$CHK_CRS1
 key=$KEY_CRS1_EDG
 group=$GRP_CH_CRS1_CHK
 group_volume=$TRIM_CRS1_CHK
-group_label=$choke
+group_label=$LABEL_CHOKE
 #include "../Data/setting/rt_key.txt"
 #include "../Data/file/MF9F.txt"
 #include "../Data/region/v1.txt"

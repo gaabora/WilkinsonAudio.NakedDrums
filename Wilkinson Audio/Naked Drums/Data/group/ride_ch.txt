@@ -1,31 +1,31 @@
-master_label=$LAB_RD
-master_volume=$TRIM_CH_RD
+master_label=$LABEL_FOR_RIDE
+master_volume=$TRIM_CH_RIDE
 
 //articulation trim
-#define $TRIM_RD_BOW 0
-#define $TRIM_RD_BEL 2
+#define $TRIM_RIDE_BOW 0
+#define $TRIM_RIDE_BEL 2
 
 <group>
-key=$KEY_RD_BOW
-group=$GRP_CH_RD_BOW
-off_by=$OFF_RD
-off_time=$OTM_CH_RD
-off_shape=$OSH_CYMBAL
+key=$KEY_RIDE_BOW
+group=$GRP_CH_RIDE_BOW
+off_by=$OFF_BY_RIDE
+off_time=$OFF_TIME_CH_RIDE
+off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
-group_volume=$TRIM_RD_BOW
-group_label=$bow
+group_volume=$TRIM_RIDE_BOW
+group_label=$LABEL_BOW
 #include "../Data/file/BZJ9.txt"
 #include "../Data/region/v3.txt"
 
 <group>
-key=$KEY_RD_BEL
-group=$GRP_CH_RD_BEL
-off_by=$OFF_RD
-off_time=$OTM_CH_RD
-off_shape=$OSH_CYMBAL
+key=$KEY_RIDE_BEL
+group=$GRP_CH_RIDE_BEL
+off_by=$OFF_BY_RIDE
+off_time=$OFF_TIME_CH_RIDE
+off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
-group_volume=$TRIM_RD_BEL
-group_label=$bell
+group_volume=$TRIM_RIDE_BEL
+group_label=$LABEL_BELL
 #include "../Data/file/2U9N.txt"
 #include "../Data/region/v1.txt"
 

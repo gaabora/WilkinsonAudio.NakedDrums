@@ -1,3 +1,4 @@
+#define $FIXED_NAME CR_Ride_Bell
 #define $MIC CloseRoom
 
 #define $ART E3

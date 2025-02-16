@@ -1,3 +1,4 @@
+#define $FIXED_NAME CR_HiHatPdl
 #define $MIC CloseRoom
 
 #define $ART E2

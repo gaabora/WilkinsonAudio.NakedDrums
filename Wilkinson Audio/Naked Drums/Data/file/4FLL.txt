@@ -1,3 +1,4 @@
+#define $FIXED_NAME MS_Splash2_Bow
 #define $MIC MidSide
 
 #define $ART D3

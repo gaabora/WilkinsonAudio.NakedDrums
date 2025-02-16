@@ -1,4 +1,4 @@
 <master>
-locc$VOL_CH=1
-amplitude_oncc$VOL_CH=$RANGE_VOL
+locc$CC_NUM_VOLUME_CH=1
+amplitude_oncc$CC_NUM_VOLUME_CH=$RANGE_VOL
 #include "../Data/group/crash1_ch.txt"

@@ -1,2 +1,2 @@
-label_cc$VOL_CH=$LAB_VOL_CH
-set_hdcc$VOL_CH=0.1
+label_cc$CC_NUM_VOLUME_CH=$LABEL_FOR_VOL_CH
+set_hdcc$CC_NUM_VOLUME_CH=0.1

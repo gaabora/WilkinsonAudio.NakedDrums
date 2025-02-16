@@ -1,3 +1,4 @@
+#define $FIXED_NAME DI_HiHatOpn
 #define $MIC HatMic
 
 #define $ART F2

@@ -1,3 +1,4 @@
+#define $FIXED_NAME OH_SnareA_Head
 #define $MIC -OH_Black
 
 #define $ART D2

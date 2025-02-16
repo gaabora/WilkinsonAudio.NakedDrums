@@ -1,3 +1,4 @@
+#define $FIXED_NAME FR_HiHatTgh
 #define $MIC FarRooms
 
 #define $ART D2

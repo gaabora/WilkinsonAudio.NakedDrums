@@ -1,3 +1,4 @@
+#define $FIXED_NAME FR_Splash1_Bow
 #define $MIC FarRooms
 
 #define $ART D3

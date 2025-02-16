@@ -1,3 +1,4 @@
+#define $FIXED_NAME OH_Ride_Bow
 #define $MIC OH
 
 #define $ART D3

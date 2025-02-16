@@ -1,3 +1,4 @@
+#define $FIXED_NAME CH_HiHatCls
 #define $MIC China_Mics
 
 #define $ART A2

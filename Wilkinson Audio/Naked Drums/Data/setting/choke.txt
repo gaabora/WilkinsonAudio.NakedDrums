@@ -1,4 +1,4 @@
-group_label=$choke
+group_label=$LABEL_CHOKE
 ampeg_sustain=0
 sample=*silence
 seq_length=1

@@ -5,8 +5,8 @@
 #define $KEY_KICK 36
 
 #define $KEY_SIDE 37
-#define $KEY_SNR1 38
-#define $KEY_SNR2 40
+#define $KEY_SNAR1 38
+#define $KEY_SNAR2 40
 
 #define $KEY_TOM1 48
 #define $KEY_TOM2 47
@@ -14,8 +14,8 @@
 #define $KEY_TOM4 43
 #define $KEY_TOM5 41
 
-#define $KEY_RD_BOW 51
-#define $KEY_RD_BEL 53
+#define $KEY_RIDE_BOW 51
+#define $KEY_RIDE_BEL 53
 
 #define $KEY_CRS1_EDG 55
 #define $KEY_CRS1_BEL 58
@@ -30,7 +30,7 @@
 #define $KEY_CHN2 52
 
 //cymbal choke
-#define $CHK_RD 60
+#define $CHK_RIDE 60
 #define $CHK_CRS1 61
 #define $CHK_CRS2 62
 #define $CHK_SPL1 63
@@ -41,17 +41,17 @@
 //---------------------------------------
 //hihat mode
 
-#define $KEY_HH_PDL 44
+#define $KEY_HHAT_PDL 44
 
 //non-variable
-#define $KEY_HH_TGH 39
-#define $KEY_HH_CLS 42
-#define $KEY_HH_HLF 46
-#define $KEY_HH_OPN 49
+#define $KEY_HHAT_TGH 39
+#define $KEY_HHAT_CLS 42
+#define $KEY_HHAT_HLF 46
+#define $KEY_HHAT_OPN 49
 
 //variable
-#define $KEY_HH_BOW 46
-#define $KEY_HH_EDG 26
+#define $KEY_HHAT_BOW 46
+#define $KEY_HHAT_EDG 26
 
 //keyswitch
 #define $SW_DEF 12

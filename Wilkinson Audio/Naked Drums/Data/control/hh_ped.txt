@@ -1,1 +1,1 @@
-label_cc$PED=$LAB_PED ($PED)
+label_cc$CC_NUM_HHAT_PEDAL=$LABEL_FOR_PED ($CC_NUM_HHAT_PEDAL)

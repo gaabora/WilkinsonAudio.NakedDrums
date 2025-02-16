@@ -1,5 +1,5 @@
 <group>
-group=$OFF_SPL2
+group=$OFF_BY_SPL2
 #include "../Data/setting/choke.txt"
 
 <region>

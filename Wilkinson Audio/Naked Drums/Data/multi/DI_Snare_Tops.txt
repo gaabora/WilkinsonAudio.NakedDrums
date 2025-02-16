@@ -1,13 +1,13 @@
 <master>
-locc$VOL_ST1=1
-amplitude_oncc$VOL_ST1=$RANGE_VOL
+locc$CC_NUM_VOLUME_SNAR_TOP1=1
+amplitude_oncc$CC_NUM_VOLUME_SNAR_TOP1=$RANGE_VOL
 pan_oncc$SPLIT=-100
 pan_curvecc$SPLIT=9
 #include "../Data/group/snare_top1.txt"
 
 <master>
-locc$VOL_ST2=1
-amplitude_oncc$VOL_ST2=$RANGE_VOL
+locc$CC_NUM_VOLUME_SNAR_TOP2=1
+amplitude_oncc$CC_NUM_VOLUME_SNAR_TOP2=$RANGE_VOL
 pan_oncc$SPLIT=100
 pan_curvecc$SPLIT=9
 #include "../Data/group/snare_top2.txt"

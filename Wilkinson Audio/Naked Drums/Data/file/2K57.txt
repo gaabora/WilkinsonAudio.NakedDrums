@@ -1,3 +1,4 @@
+#define $FIXED_NAME FR_SnareA_Head
 #define $MIC -FarRooms_Black
 
 #define $ART D2
