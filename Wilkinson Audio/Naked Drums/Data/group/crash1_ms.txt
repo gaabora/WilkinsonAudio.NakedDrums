@@ -14,7 +14,6 @@ off_time=$OFF_TIME_MS_CRS1_EDG
 note_polyphony=$POLY_EDG
 group_volume=$TRIM_CRS1_EDG
 group_label=$LABEL_EDGE
-//#include "../Data/file/611K.txt"
 #define $SAPMLE_NAME crash1-edge/crash1-edge-OverheadMidSide
 #include "../Data/region/v3.txt"
 
@@ -27,7 +26,6 @@ off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
 group_volume=$TRIM_CRS1_BEL
 group_label=$LABEL_BELL
-//#include "../Data/file/JTG6.txt"
 #define $SAPMLE_NAME crash1-bell/crash1-bell-OverheadMidSide
 #include "../Data/region/v1.txt"
 
@@ -39,7 +37,6 @@ group=$GRP_MS_CRS1_CHK
 group_volume=$TRIM_CRS1_CHK
 group_label=$LABEL_CHOKE
 #include "../Data/setting/rt_polyaft.txt"
-//#include "../Data/file/ZHKM.txt"
 #define $SAPMLE_NAME crash1-choke/crash1-choke-OverheadMidSide
 #include "../Data/region/v1.txt"
 
@@ -50,7 +47,6 @@ group=$GRP_MS_CRS1_CHK
 group_volume=$TRIM_CRS1_CHK
 group_label=$LABEL_CHOKE
 #include "../Data/setting/rt_key.txt"
-//#include "../Data/file/ZHKM.txt"
 #define $SAPMLE_NAME crash1-choke/crash1-choke-OverheadMidSide
 #include "../Data/region/v1.txt"
 

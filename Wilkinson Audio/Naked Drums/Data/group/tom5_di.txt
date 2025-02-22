@@ -8,6 +8,5 @@ tune=$TUNING_CENTS_TOM5
 <group>
 key=$KEY_TOM5
 group_label=$LABEL_CENTER
-//#include "../Data/file/KH0Z.txt"
 #define $SAPMLE_NAME tom5-head/tom5-head-DirectNormal
 #include "../Data/region/v3.txt"

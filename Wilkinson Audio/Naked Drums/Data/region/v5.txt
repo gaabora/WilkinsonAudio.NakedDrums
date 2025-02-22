@@ -1,89 +1,54 @@
-#define $POS 1
-#define $RR_OLD one
-#define $RR_NEW -RR01
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_01.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_02.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_03.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_04.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_05.$ext volume=$V5VOL
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=1  sample=$SAPMLE_NAME-VL15-RR01.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=2  sample=$SAPMLE_NAME-VL15-RR02.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=3  sample=$SAPMLE_NAME-VL15-RR03.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=4  sample=$SAPMLE_NAME-VL15-RR04.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=5  sample=$SAPMLE_NAME-VL15-RR05.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=6  sample=$SAPMLE_NAME-VL15-RR06.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=7  sample=$SAPMLE_NAME-VL15-RR07.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=8  sample=$SAPMLE_NAME-VL15-RR08.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=9  sample=$SAPMLE_NAME-VL15-RR09.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V15L hivel=$V15H seq_position=10 sample=$SAPMLE_NAME-VL15-RR10.$ext
 
-#define $POS 2
-#define $RR_OLD two
-#define $RR_NEW -RR02
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_06.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_07.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_08.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_09.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_10.$ext volume=$V5VOL
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=1  sample=$SAPMLE_NAME-VL25-RR01.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=2  sample=$SAPMLE_NAME-VL25-RR02.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=3  sample=$SAPMLE_NAME-VL25-RR03.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=4  sample=$SAPMLE_NAME-VL25-RR04.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=5  sample=$SAPMLE_NAME-VL25-RR05.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=6  sample=$SAPMLE_NAME-VL25-RR06.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=7  sample=$SAPMLE_NAME-VL25-RR07.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=8  sample=$SAPMLE_NAME-VL25-RR08.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=9  sample=$SAPMLE_NAME-VL25-RR09.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V25L hivel=$V25H seq_position=10 sample=$SAPMLE_NAME-VL25-RR10.$ext
 
-#define $POS 3
-#define $RR_OLD three
-#define $RR_NEW -RR03
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_11.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_12.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_13.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_14.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_15.$ext volume=$V5VOL
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=1  sample=$SAPMLE_NAME-VL35-RR01.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=2  sample=$SAPMLE_NAME-VL35-RR02.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=3  sample=$SAPMLE_NAME-VL35-RR03.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=4  sample=$SAPMLE_NAME-VL35-RR04.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=5  sample=$SAPMLE_NAME-VL35-RR05.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=6  sample=$SAPMLE_NAME-VL35-RR06.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=7  sample=$SAPMLE_NAME-VL35-RR07.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=8  sample=$SAPMLE_NAME-VL35-RR08.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=9  sample=$SAPMLE_NAME-VL35-RR09.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V35L hivel=$V35H seq_position=10 sample=$SAPMLE_NAME-VL35-RR10.$ext
 
-#define $POS 4
-#define $RR_OLD four
-#define $RR_NEW -RR04
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_16.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_17.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_18.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_19.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_20.$ext volume=$V5VOL
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=1  sample=$SAPMLE_NAME-VL45-RR01.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=2  sample=$SAPMLE_NAME-VL45-RR02.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=3  sample=$SAPMLE_NAME-VL45-RR03.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=4  sample=$SAPMLE_NAME-VL45-RR04.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=5  sample=$SAPMLE_NAME-VL45-RR05.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=6  sample=$SAPMLE_NAME-VL45-RR06.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=7  sample=$SAPMLE_NAME-VL45-RR07.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=8  sample=$SAPMLE_NAME-VL45-RR08.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=9  sample=$SAPMLE_NAME-VL45-RR09.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V45L hivel=$V45H seq_position=10 sample=$SAPMLE_NAME-VL45-RR10.$ext
 
-#define $POS 5
-#define $RR_OLD five
-#define $RR_NEW -RR05
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_21.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_22.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_23.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_24.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_25.$ext volume=$V5VOL
-
-#define $POS 6
-#define $RR_OLD six
-#define $RR_NEW -RR06
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_26.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_27.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_28.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_29.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_30.$ext volume=$V5VOL
-
-#define $POS 7
-#define $RR_OLD seven
-#define $RR_NEW -RR07
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_31.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_32.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_33.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_34.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_35.$ext volume=$V5VOL
-
-#define $POS 8
-#define $RR_OLD eight
-#define $RR_NEW -RR08
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_36.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_37.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_38.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_39.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_40.$ext volume=$V5VOL
-
-#define $POS 9
-#define $RR_OLD nine
-#define $RR_NEW -RR09
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_41.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_42.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_43.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_44.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_45.$ext volume=$V5VOL
-
-#define $POS 10
-#define $RR_OLD ten
-#define $RR_NEW -RR10
-<region> lovel=$V51L hivel=$V51H seq_position=$POS region_label=$VEL1 $RR_OLD sample=$FIXED_NAME-VL15$RR_NEW~$MIC_$ART_$VEL1_$RR_OLD-$CODE_46.$ext volume=$V1VOL
-<region> lovel=$V52L hivel=$V52H seq_position=$POS region_label=$VEL2 $RR_OLD sample=$FIXED_NAME-VL25$RR_NEW~$MIC_$ART_$VEL2_$RR_OLD-$CODE_47.$ext volume=$V2VOL
-<region> lovel=$V53L hivel=$V53H seq_position=$POS region_label=$VEL3 $RR_OLD sample=$FIXED_NAME-VL35$RR_NEW~$MIC_$ART_$VEL3_$RR_OLD-$CODE_48.$ext volume=$V3VOL
-<region> lovel=$V54L hivel=$V54H seq_position=$POS region_label=$VEL4 $RR_OLD sample=$FIXED_NAME-VL45$RR_NEW~$MIC_$ART_$VEL4_$RR_OLD-$CODE_49.$ext volume=$V4VOL
-<region> lovel=$V55L hivel=$V55H seq_position=$POS region_label=$VEL5 $RR_OLD sample=$FIXED_NAME-VL55$RR_NEW~$MIC_$ART_$VEL5_$RR_OLD-$CODE_50.$ext volume=$V5VOL
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=1  sample=$SAPMLE_NAME-VL55-RR01.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=2  sample=$SAPMLE_NAME-VL55-RR02.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=3  sample=$SAPMLE_NAME-VL55-RR03.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=4  sample=$SAPMLE_NAME-VL55-RR04.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=5  sample=$SAPMLE_NAME-VL55-RR05.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=6  sample=$SAPMLE_NAME-VL55-RR06.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=7  sample=$SAPMLE_NAME-VL55-RR07.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=8  sample=$SAPMLE_NAME-VL55-RR08.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=9  sample=$SAPMLE_NAME-VL55-RR09.$ext
+<region> output=$OUTPUT_CHANNEL lovel=$V55L hivel=$V55H seq_position=10 sample=$SAPMLE_NAME-VL55-RR10.$ext

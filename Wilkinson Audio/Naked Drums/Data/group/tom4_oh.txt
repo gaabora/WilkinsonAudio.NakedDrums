@@ -8,6 +8,5 @@ tune=$TUNING_CENTS_TOM4
 <group>
 key=$KEY_TOM4
 group_label=$LABEL_CENTER
-//#include "../Data/file/MKLJ.txt"
 #define $SAPMLE_NAME tom4-head/tom4-head-OverheadNormal
 #include "../Data/region/v3.txt"

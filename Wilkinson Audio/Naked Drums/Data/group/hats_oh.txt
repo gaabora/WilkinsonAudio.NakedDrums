@@ -18,7 +18,6 @@ group=$GRP_OH_HHAT_PDL
 group_volume=$TRIM_HHAT_PDL
 group_label=$LABEL_PEDAL
 #include "../Data/setting/off_all.txt"
-//#include "../Data/file/TCLW.txt"
 #define $SAPMLE_NAME hihat1-pedal/hihat1-pedal-OverheadNormal
 #include "../Data/region/v1.txt"
 
@@ -32,7 +31,6 @@ group_volume=$TRIM_HHAT_TGH
 group_label=$LABEL_TIGHT
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/off_all.txt"
-//#include "../Data/file/KK98.txt"
 #define $SAPMLE_NAME hihat1-tight/hihat1-tight-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -44,7 +42,6 @@ group_volume=$TRIM_HHAT_CLS
 group_label=$LABEL_CLOSED
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/off_all.txt"
-//#include "../Data/file/CWG6.txt"
 #define $SAPMLE_NAME hihat1-close/hihat1-close-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -56,7 +53,6 @@ group_volume=$TRIM_HHAT_HLF
 group_label=$LABEL_HALF
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/on_hlf.txt"
-//#include "../Data/file/6LWM.txt"
 #define $SAPMLE_NAME hihat1-half/hihat1-half-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -67,7 +63,6 @@ off_by=$OFF_BY_HHAT_OPN
 group_volume=$TRIM_HHAT_OPN
 group_label=$LABEL_OPEN
 #include "../Data/setting/sw_non.txt"
-//#include "../Data/file/UFYV.txt"
 #define $SAPMLE_NAME hihat1-open/hihat1-open-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -82,7 +77,6 @@ off_by=$OFF_BY_HHAT_OPN
 group_volume=$TRIM_HHAT_OPN
 group_label=$LABEL_OPEN
 #include "../Data/setting/sw_var.txt"
-//#include "../Data/file/UFYV.txt"
 #define $SAPMLE_NAME hihat1-open/hihat1-open-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -96,7 +90,6 @@ group_volume=$TRIM_HHAT_HLF
 group_label=$LABEL_HALF
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/on_hlf.txt"
-//#include "../Data/file/6LWM.txt"
 #define $SAPMLE_NAME hihat1-half/hihat1-half-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -110,7 +103,6 @@ group_volume=$TRIM_HHAT_TGH
 group_label=$LABEL_TIGHT
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/off_all.txt"
-//#include "../Data/file/KK98.txt"
 #define $SAPMLE_NAME hihat1-tight/hihat1-tight-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -125,7 +117,6 @@ off_by=$OFF_BY_HHAT_OPN
 group_volume=$TRIM_HHAT_OPN
 group_label=$LABEL_OPEN
 #include "../Data/setting/sw_var.txt"
-//#include "../Data/file/UFYV.txt"
 #define $SAPMLE_NAME hihat1-open/hihat1-open-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -139,7 +130,6 @@ group_volume=$TRIM_HHAT_HLF
 group_label=$LABEL_HALF
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/on_hlf.txt"
-//#include "../Data/file/6LWM.txt"
 #define $SAPMLE_NAME hihat1-half/hihat1-half-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -153,6 +143,5 @@ group_volume=$TRIM_HHAT_CLS
 group_label=$LABEL_CLOSED
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/off_all.txt"
-//#include "../Data/file/CWG6.txt"
 #define $SAPMLE_NAME hihat1-close/hihat1-close-OverheadNormal
 #include "../Data/region/v3.txt"

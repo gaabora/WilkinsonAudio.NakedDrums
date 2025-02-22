@@ -9,7 +9,6 @@ off_time=$OFF_TIME_MS_CHN1
 off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
 group_label=$LABEL_EDGE
-//#include "../Data/file/B8XI.txt"
 #define $SAPMLE_NAME china1-edge/china1-edge-OverheadMidSide
 #include "../Data/region/v3.txt"
 

@@ -7,6 +7,5 @@ group=$GRP_DI_KICK_IN
 <group>
 key=$KEY_KICK
 group_label=$LABEL_CENTER
-//#include "../Data/file/TEQT.txt"
 #define $SAPMLE_NAME kick-head/kick-head-DirectInside
 #include "../Data/region/v5.txt"

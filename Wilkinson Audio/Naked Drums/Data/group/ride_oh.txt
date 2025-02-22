@@ -14,7 +14,6 @@ off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
 group_volume=$TRIM_RIDE_BOW
 group_label=$LABEL_BOW
-//#include "../Data/file/KXMA.txt"
 #define $SAPMLE_NAME ride1-bow/ride1-bow-OverheadNormal
 #include "../Data/region/v3.txt"
 
@@ -27,7 +26,6 @@ off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
 group_volume=$TRIM_RIDE_BEL
 group_label=$LABEL_BELL
-//#include "../Data/file/DJ89.txt"
 #define $SAPMLE_NAME ride1-bell/ride1-bell-OverheadNormal
 #include "../Data/region/v1.txt"
 

@@ -7,6 +7,5 @@ group=$GRP_OH_KICK
 <group>
 key=$KEY_KICK
 group_label=$LABEL_CENTER
-//#include "../Data/file/H05H.txt"
 #define $SAPMLE_NAME kick1-head/kick1-head-OverheadNormal
 #include "../Data/region/v5.txt"
