@@ -1,0 +1,6 @@
+TODO: edit file to remove offset: sample=splash1-bow-OverheadWide-VL12-RR09       TopOne_D3_20_nine-S9D5.flac     offset=8625
+TODO: edit file to remove offset: sample=splash1-bow-RoomClose-VL12-RR09          CloseRoom_D3_20_nine-RNGW.flac  offset=8625
+TODO: edit file to remove offset: sample=splash1-bow-RoomFar-VL12-RR09            FarRooms_D3_20_nine-SYOW.flac   offset=8625
+TODO: edit file to remove offset: sample=splash1-bow-OverheadMidSide-VL12-RR09    MidSide_D3_20_nine-F0KO.flac    offset=8625
+TODO: edit file to remove offset: sample=splash1-bow-OverheadNormal-VL12-RR09     OH_D3_20_nine-JZCM.flac         offset=8625
+TODO: edit file to remove offset: sample=splash1-bow-OverheadNormal-VL12-RR09     OH_D3_20_nine-JZCM.flac         offset=8625

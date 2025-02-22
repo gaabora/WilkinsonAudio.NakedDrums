@@ -9,7 +9,8 @@ off_time=$OFF_TIME_CR_SPL2
 off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
 group_label=$LABEL_EDGE
-#include "../Data/file/L6IJ.txt"
+//#include "../Data/file/L6IJ.txt"
+#define $SAPMLE_NAME splash2-edge/splash2-edge-RoomClose
 #include "../Data/region/v2.txt"
 
 #include "../Data/setting/off_spl2.txt"

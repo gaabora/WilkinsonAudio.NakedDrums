@@ -8,5 +8,6 @@ tune=$TUNING_CENTS_TOM5
 <group>
 key=$KEY_TOM5
 group_label=$LABEL_CENTER
-#include "../Data/file/RABW.txt"
+//#include "../Data/file/RABW.txt"
+#define $SAPMLE_NAME tom5-head/tom5-head-OverheadMidSide
 #include "../Data/region/v3.txt"

@@ -8,5 +8,6 @@ tune=$TUNING_CENTS_TOM3
 <group>
 key=$KEY_TOM3
 group_label=$LABEL_CENTER
-#include "../Data/file/ZNU9.txt"
+//#include "../Data/file/ZNU9.txt"
+#define $SAPMLE_NAME tom3-head/tom3-head-DirectNormal
 #include "../Data/region/v3.txt"

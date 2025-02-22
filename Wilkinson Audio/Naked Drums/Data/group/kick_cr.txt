@@ -7,5 +7,6 @@ group=$GRP_CR_KICK
 <group>
 key=$KEY_KICK
 group_label=$LABEL_CENTER
-#include "../Data/file/J072.txt"
+//#include "../Data/file/J072.txt"
+#define $SAPMLE_NAME kick1-head/kick1-head-RoomClose
 #include "../Data/region/v5.txt"

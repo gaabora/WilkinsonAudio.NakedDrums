@@ -8,5 +8,6 @@ tune=$TUNING_CENTS_TOM2
 <group>
 key=$KEY_TOM2
 group_label=$LABEL_CENTER
-#include "../Data/file/O1YY.txt"
+//#include "../Data/file/O1YY.txt"
+#define $SAPMLE_NAME tom2-head/tom2-head-RoomClose
 #include "../Data/region/v3.txt"

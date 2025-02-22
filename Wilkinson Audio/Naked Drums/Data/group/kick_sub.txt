@@ -7,5 +7,6 @@ group=$GRP_DI_KICK_SUB
 <group>
 key=$KEY_KICK
 group_label=$LABEL_CENTER
-#include "../Data/file/FHW3.txt"
+//#include "../Data/file/FHW3.txt"
+#define $SAPMLE_NAME kick-head/kick-head-DirectSub
 #include "../Data/region/v5.txt"

@@ -9,7 +9,8 @@ off_time=$OFF_TIME_CH_SPL1
 off_shape=$OFF_SHAPE_CYMBAL
 note_polyphony=$POLY_CYMBAL
 group_label=$LABEL_EDGE
-#include "../Data/file/G1IU.txt"
+//#include "../Data/file/G1IU.txt"
+#define $SAPMLE_NAME splash1-edge/splash1-edge-OverheadWide
 #include "../Data/region/v2.txt"
 
 #include "../Data/setting/off_spl1.txt"

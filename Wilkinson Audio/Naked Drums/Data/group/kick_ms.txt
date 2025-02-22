@@ -7,5 +7,6 @@ group=$GRP_MS_KICK
 <group>
 key=$KEY_KICK
 group_label=$LABEL_CENTER
-#include "../Data/file/IIOC.txt"
+//#include "../Data/file/IIOC.txt"
+#define $SAPMLE_NAME kick1-head/kick1-head-OverheadMidSide
 #include "../Data/region/v5.txt"

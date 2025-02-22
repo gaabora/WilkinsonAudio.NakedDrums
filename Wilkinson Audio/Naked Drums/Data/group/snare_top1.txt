@@ -13,14 +13,16 @@ group=$GRP_DI_SNAR_TOP1
 key=$KEY_SIDE
 group_volume=$TRIM_SIDE
 group_label=$LABEL_SIDESTICK
-#include "../Data/file/94P3.txt"
+//#include "../Data/file/94P3.txt"
+#define $SAPMLE_NAME snare1-sidestick/snare1-sidestick-DirectTop1
 #include "../Data/region/v1.txt"
 
 <group>
 key=$KEY_SNAR1
 group_volume=$TRIM_SNAR1
 group_label=$LABEL_CENTER
-#include "../Data/file/NDOX.txt"
+//#include "../Data/file/NDOX.txt"
+#define $SAPMLE_NAME snare1-head/snare1-head-DirectTop1
 #include "../Data/region/v5.txt"
 
 <group>
@@ -28,5 +30,6 @@ key=$KEY_SNAR2
 group_volume=$TRIM_SNAR2
 group_label=$LABEL_CENTER
 master_label=$LABEL_FOR_SNAR2
-#include "../Data/file/1IJA.txt"
+//#include "../Data/file/1IJA.txt"
+#define $SAPMLE_NAME snare2-head/snare2-head-DirectTop1
 #include "../Data/region/v5.txt"

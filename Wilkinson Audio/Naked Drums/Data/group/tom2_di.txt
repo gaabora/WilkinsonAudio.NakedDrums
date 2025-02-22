@@ -8,5 +8,6 @@ tune=$TUNING_CENTS_TOM2
 <group>
 key=$KEY_TOM2
 group_label=$LABEL_CENTER
-#include "../Data/file/NHRO.txt"
+//#include "../Data/file/NHRO.txt"
+#define $SAPMLE_NAME tom2-head/tom2-head-DirectNormal
 #include "../Data/region/v3.txt"

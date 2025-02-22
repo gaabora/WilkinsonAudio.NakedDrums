@@ -13,14 +13,16 @@ group=$GRP_FR_SNAR
 key=$KEY_SIDE
 group_volume=$TRIM_SIDE
 group_label=$LABEL_SIDESTICK
-#include "../Data/file/VJPM.txt"
+//#include "../Data/file/VJPM.txt"
+#define $SAPMLE_NAME snare1-sidestick/snare1-sidestick-RoomFar
 #include "../Data/region/v1.txt"
 
 <group>
 key=$KEY_SNAR1
 group_volume=$TRIM_SNAR1
 group_label=$LABEL_CENTER
-#include "../Data/file/2K57.txt"
+//#include "../Data/file/2K57.txt"
+#define $SAPMLE_NAME snare1-head/snare1-head-RoomFar
 #include "../Data/region/v5.txt"
 
 <group>
@@ -28,5 +30,6 @@ key=$KEY_SNAR2
 group_volume=$TRIM_SNAR2
 group_label=$LABEL_CENTER
 master_label=$LABEL_FOR_SNAR2
-#include "../Data/file/B46E.txt"
+//#include "../Data/file/B46E.txt"
+#define $SAPMLE_NAME snare2-head/snare2-head-RoomFar
 #include "../Data/region/v5.txt"

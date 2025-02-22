@@ -17,7 +17,8 @@ group=$GRP_MS_HHAT_PDL
 group_volume=$TRIM_HHAT_PDL
 group_label=$LABEL_PEDAL
 #include "../Data/setting/off_all.txt"
-#include "../Data/file/UJ0J.txt"
+//#include "../Data/file/UJ0J.txt"
+#define $SAPMLE_NAME hihat1-pedal/hihat1-pedal-OverheadMidSide
 #include "../Data/region/v1.txt"
 
 //--------------------------------------------
@@ -30,7 +31,8 @@ group_volume=$TRIM_HHAT_TGH
 group_label=$LABEL_TIGHT
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/off_all.txt"
-#include "../Data/file/T3M1.txt"
+//#include "../Data/file/T3M1.txt"
+#define $SAPMLE_NAME hihat1-tight/hihat1-tight-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 <group>
@@ -41,7 +43,8 @@ group_volume=$TRIM_HHAT_CLS
 group_label=$LABEL_CLOSED
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/off_all.txt"
-#include "../Data/file/8C04.txt"
+//#include "../Data/file/8C04.txt"
+#define $SAPMLE_NAME hihat1-close/hihat1-close-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 <group>
@@ -52,7 +55,8 @@ group_volume=$TRIM_HHAT_HLF
 group_label=$LABEL_HALF
 #include "../Data/setting/sw_non.txt"
 #include "../Data/setting/on_hlf.txt"
-#include "../Data/file/BEDF.txt"
+//#include "../Data/file/BEDF.txt"
+#define $SAPMLE_NAME hihat1-half/hihat1-half-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 <group>
@@ -62,7 +66,8 @@ off_by=$OFF_BY_HHAT_OPN
 group_volume=$TRIM_HHAT_OPN
 group_label=$LABEL_OPEN
 #include "../Data/setting/sw_non.txt"
-#include "../Data/file/CU9Q.txt"
+//#include "../Data/file/CU9Q.txt"
+#define $SAPMLE_NAME hihat1-open/hihat1-open-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 //--------------------------------------------
@@ -76,7 +81,8 @@ off_by=$OFF_BY_HHAT_OPN
 group_volume=$TRIM_HHAT_OPN
 group_label=$LABEL_OPEN
 #include "../Data/setting/sw_var.txt"
-#include "../Data/file/CU9Q.txt"
+//#include "../Data/file/CU9Q.txt"
+#define $SAPMLE_NAME hihat1-open/hihat1-open-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 <group>
@@ -89,7 +95,8 @@ group_volume=$TRIM_HHAT_HLF
 group_label=$LABEL_HALF
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/on_hlf.txt"
-#include "../Data/file/BEDF.txt"
+//#include "../Data/file/BEDF.txt"
+#define $SAPMLE_NAME hihat1-half/hihat1-half-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 <group>
@@ -102,7 +109,8 @@ group_volume=$TRIM_HHAT_TGH
 group_label=$LABEL_TIGHT
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/off_all.txt"
-#include "../Data/file/T3M1.txt"
+//#include "../Data/file/T3M1.txt"
+#define $SAPMLE_NAME hihat1-tight/hihat1-tight-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 //--------------------------------------------
@@ -116,7 +124,8 @@ off_by=$OFF_BY_HHAT_OPN
 group_volume=$TRIM_HHAT_OPN
 group_label=$LABEL_OPEN
 #include "../Data/setting/sw_var.txt"
-#include "../Data/file/CU9Q.txt"
+//#include "../Data/file/CU9Q.txt"
+#define $SAPMLE_NAME hihat1-open/hihat1-open-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 <group>
@@ -129,7 +138,8 @@ group_volume=$TRIM_HHAT_HLF
 group_label=$LABEL_HALF
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/on_hlf.txt"
-#include "../Data/file/BEDF.txt"
+//#include "../Data/file/BEDF.txt"
+#define $SAPMLE_NAME hihat1-half/hihat1-half-OverheadMidSide
 #include "../Data/region/v3.txt"
 
 <group>
@@ -142,5 +152,6 @@ group_volume=$TRIM_HHAT_CLS
 group_label=$LABEL_CLOSED
 #include "../Data/setting/sw_var.txt"
 #include "../Data/setting/off_all.txt"
-#include "../Data/file/8C04.txt"
+//#include "../Data/file/8C04.txt"
+#define $SAPMLE_NAME hihat1-close/hihat1-close-OverheadMidSide
 #include "../Data/region/v3.txt"
